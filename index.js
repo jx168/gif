@@ -51,6 +51,7 @@ if (require.main === module) {
     splitGif(filename, function(e, list) { 
         if(e) {
             console.log(e.message); 
+            console.log(e, '--*---99')
         }
         else {
             console.log(list);
