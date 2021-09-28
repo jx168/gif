@@ -2,7 +2,7 @@ var path = require('path');
 var cp = require('child_process');
 var fs = require('fs');
 
-var binName = process.platform === 'win32' ? 'gifsicle.exe' : 'gifsicle';
+var binName = process.platform === 'win32' ? 'gifsicle.exe' : 'luo';
 var binPath = path.resolve(__dirname, binName);
 
 var splitGif = function(gifSrcPath, callBack) {
